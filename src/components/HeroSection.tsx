@@ -2,6 +2,13 @@
 import React from 'react';
 
 const HeroSection = () => {
+  const scrollToServices = () => {
+    const servicesSection = document.getElementById('services');
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center celestial-bg">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-astrology-deep/50"></div>
@@ -19,7 +26,10 @@ const HeroSection = () => {
           Discover the revolutionary approach to Astro Life Prediction that transforms traditional astrology into precise, timeline-based guidance for your life journey
         </p>
         <div className="mt-10 animate-fade-in animation-delay-1000">
-          <button className="bg-astrology-gold text-astrology-deep px-8 py-4 rounded-full text-lg font-semibold hover-glow hover:scale-105 transition-all duration-300">
+          <button 
+            onClick={scrollToServices}
+            className="bg-astrology-gold text-astrology-deep px-8 py-4 rounded-full text-lg font-semibold hover-glow hover:scale-105 transition-all duration-300"
+          >
             Explore Your Destiny
           </button>
         </div>
