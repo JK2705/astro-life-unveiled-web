@@ -6,109 +6,144 @@ import { Star } from 'lucide-react';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Priya Sharma",
-      location: "Mumbai",
-      text: "The ALP reading was incredibly accurate! The astrologer predicted my job change with exact timing - it happened exactly when they said it would. Amazing!",
+      name: "Arjun Krishnamurthy",
+      location: "Chennai, India",
+      text: "The ALP reading was incredibly accurate! The astrologer predicted my job change with exact timing - it happened exactly when they said it would. Amazing precision!",
       rating: 5,
       service: "Career Guidance"
     },
     {
-      name: "Rajesh Kumar",
-      location: "Delhi",
-      text: "I was skeptical at first, but the marriage timing prediction was spot on. Found my life partner exactly in the timeframe mentioned. Truly grateful!",
+      name: "Sofia Martinez",
+      location: "Barcelona, Spain",
+      text: "I was skeptical at first, but the marriage timing prediction was spot on. Found my life partner exactly in the timeframe mentioned. Truly grateful for this guidance!",
       rating: 5,
       service: "Love & Relationship"
     },
     {
-      name: "Anita Patel",
-      location: "Ahmedabad",
+      name: "Ravi Patel",
+      location: "London, UK",
       text: "The health predictions helped me take preventive measures that literally saved my life. The timing and nature of health issues were precisely predicted.",
       rating: 5,
       service: "Health & Wellness"
     },
     {
-      name: "Vikram Singh",
-      location: "Jaipur",
-      text: "Business expansion guidance was phenomenal. Launched my new venture in the suggested timeframe and it's been incredibly successful. Thank you!",
+      name: "Chen Wei Lin",
+      location: "Singapore",
+      text: "Business expansion guidance was phenomenal. Launched my new venture in the suggested timeframe and it's been incredibly successful. Thank you so much!",
       rating: 5,
       service: "Business Consultation"
     },
     {
-      name: "Meera Reddy",
-      location: "Hyderabad",
+      name: "Priya Nair",
+      location: "Dubai, UAE",
       text: "The annual forecast was like reading my diary in advance. Every major event happened as predicted. ALP astrology is truly revolutionary!",
       rating: 5,
       service: "Annual Forecast"
     },
     {
-      name: "Amit Joshi",
-      location: "Pune",
+      name: "David Thompson",
+      location: "Toronto, Canada",
       text: "Property purchase timing was perfect. Bought at the right time and right price as suggested. The financial gains have been substantial!",
       rating: 5,
       service: "Financial Guidance"
     },
     {
-      name: "Sunita Agarwal",
-      location: "Kolkata",
-      text: "Child birth timing consultation was a blessing. My baby was born healthy and at the perfect time as predicted. Couldn't be happier!",
+      name: "Lakshmi Reddy",
+      location: "Hyderabad, India",
+      text: "Child birth timing consultation was a blessing. My baby was born healthy and at the perfect time as predicted. Couldn't be happier with the outcome!",
       rating: 5,
       service: "Child Birth Timing"
     },
     {
-      name: "Deepak Gupta",
-      location: "Bangalore",
-      text: "Educational path guidance for my son was invaluable. He got into his dream college exactly as the astrologer had foreseen. Remarkable accuracy!",
+      name: "Ahmed Hassan",
+      location: "Cairo, Egypt",
+      text: "Educational path guidance for my son was invaluable. He got into his dream university exactly as the astrologer had foreseen. Remarkable accuracy!",
       rating: 5,
       service: "Educational Guidance"
     },
     {
-      name: "Kavya Menon",
-      location: "Chennai",
+      name: "Maria Gonzalez",
+      location: "Mexico City, Mexico",
       text: "The relationship compatibility analysis saved my marriage. Understanding our dynamics helped us resolve conflicts and grow stronger together.",
       rating: 5,
       service: "Relationship Analysis"
     },
     {
-      name: "Sanjay Malhotra",
-      location: "Chandigarh",
+      name: "Hiroshi Tanaka",
+      location: "Tokyo, Japan",
       text: "Career transition guidance was spot on. Changed my field at the right time and it's been the best decision of my life. Highly recommended!",
       rating: 5,
       service: "Career Transition"
     },
     {
-      name: "Ritu Bhardwaj",
-      location: "Lucknow",
+      name: "Fatima Al-Zahra",
+      location: "Riyadh, Saudi Arabia",
       text: "Past life reading revealed so much about my current life patterns. It helped me break negative cycles and embrace my true potential.",
       rating: 5,
       service: "Past Life Reading"
     },
     {
-      name: "Harish Chandra",
-      location: "Indore",
+      name: "James Wilson",
+      location: "Sydney, Australia",
       text: "Investment timing advice has been incredibly profitable. Made decisions based on astrological guidance and the returns have been excellent!",
       rating: 5,
       service: "Investment Guidance"
     },
     {
-      name: "Pooja Saxena",
-      location: "Bhopal",
+      name: "Ananya Sharma",
+      location: "Mumbai, India",
       text: "Family compatibility analysis brought peace to our household. Understanding each family member's nature helped resolve long-standing issues.",
       rating: 5,
       service: "Family Consultation"
     },
     {
-      name: "Mohit Agrawal",
-      location: "Agra",
+      name: "Pierre Dubois",
+      location: "Paris, France",
       text: "Creative potential reading unlocked my artistic abilities. Started my art business at the suggested time and it's thriving beyond expectations!",
       rating: 5,
       service: "Creative Guidance"
     },
     {
-      name: "Neha Kapoor",
-      location: "Gurgaon",
+      name: "Sarah Johnson",
+      location: "New York, USA",
       text: "Life purpose discovery session was life-changing. Finally found my true calling and am living a more fulfilling and meaningful life now.",
       rating: 5,
       service: "Life Purpose"
+    },
+    {
+      name: "Raj Kumar Singh",
+      location: "Delhi, India",
+      text: "Foreign settlement guidance was incredibly helpful. Got my visa approved exactly when predicted and settled in Canada successfully.",
+      rating: 5,
+      service: "Foreign Travel"
+    },
+    {
+      name: "Isabella Romano",
+      location: "Rome, Italy",
+      text: "Marriage compatibility reading prevented a disaster. Realized the incompatibility before marriage and found my perfect match later as predicted.",
+      rating: 5,
+      service: "Marriage Analysis"
+    },
+    {
+      name: "Mohammed Rahman",
+      location: "Dhaka, Bangladesh",
+      text: "Business partnership analysis saved me from a bad deal. The astrologer warned about timing and partner issues which proved absolutely accurate.",
+      rating: 5,
+      service: "Business Partnership"
+    },
+    {
+      name: "Nina Petrov",
+      location: "Moscow, Russia",
+      text: "Spiritual guidance helped me find inner peace. The meditation practices and timing suggestions transformed my spiritual journey completely.",
+      rating: 5,
+      service: "Spiritual Growth"
+    },
+    {
+      name: "Carlos Silva",
+      location: "São Paulo, Brazil",
+      text: "Financial prosperity predictions were amazing. Started my business venture exactly when suggested and achieved success beyond my dreams!",
+      rating: 5,
+      service: "Wealth Creation"
     }
   ];
 
@@ -117,10 +152,10 @@ const TestimonialsSection = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-4xl sm:text-5xl font-serif font-bold text-astrology-gold glow-text mb-6">
-            Client Success Stories
+            Global Client Success Stories
           </h2>
           <p className="text-xl text-astrology-silver max-w-3xl mx-auto">
-            Discover how ALP astrology has transformed lives with precise predictions and timely guidance
+            Discover how ALP astrology has transformed lives worldwide with precise predictions and timely guidance
           </p>
         </div>
 
@@ -166,7 +201,7 @@ const TestimonialsSection = () => {
         <div className="text-center mt-16 animate-on-scroll">
           <div className="bg-gradient-to-r from-astrology-deep/50 to-astrology-cosmic/50 rounded-lg p-8 max-w-2xl mx-auto border border-astrology-gold/20">
             <h3 className="text-2xl font-serif font-bold text-astrology-gold mb-4">
-              Join Thousands of Satisfied Clients
+              Join Thousands of Satisfied Clients Worldwide
             </h3>
             <p className="text-astrology-silver mb-6">
               Experience the accuracy and life-changing insights of ALP astrology for yourself

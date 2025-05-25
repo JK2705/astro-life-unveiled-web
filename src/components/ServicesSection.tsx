@@ -1,98 +1,146 @@
 
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Star, Clock, Users, Zap, Heart, Shield, Eye, Calendar, BookOpen, Compass, Gift, Target, Lightbulb, Phone, MessageCircle } from 'lucide-react';
+import { Star, Clock, Users, Zap, Heart, Shield, Eye, Calendar, BookOpen, Compass, Gift, Target, Lightbulb, Phone, MessageCircle, Home, DollarSign, Briefcase, Baby, Flower, Globe, Mountain, Sun, Moon } from 'lucide-react';
 
 const ServicesSection = () => {
   const services = [
     {
       icon: Star,
       title: "Complete Life Reading",
-      description: "Comprehensive analysis of your entire life path, major events, and key turning points",
+      description: "Comprehensive analysis of your entire life path, major events, and key turning points with detailed timeline predictions",
       duration: "90 minutes"
     },
     {
       icon: Heart,
       title: "Love & Relationship Analysis",
-      description: "Deep insights into your romantic compatibility, marriage timing, and relationship dynamics",
+      description: "Deep insights into romantic compatibility, marriage timing, soulmate connections, and relationship dynamics",
       duration: "60 minutes"
     },
     {
       icon: Target,
       title: "Career & Business Guidance",
-      description: "Strategic advice for career growth, business ventures, and professional success timing",
+      description: "Strategic advice for career growth, business ventures, professional success timing, and wealth creation",
       duration: "75 minutes"
     },
     {
       icon: Shield,
       title: "Health & Wellness Predictions",
-      description: "Preventive health insights and wellness guidance based on planetary influences",
+      description: "Preventive health insights, wellness guidance, and healing recommendations based on planetary influences",
       duration: "45 minutes"
     },
     {
       icon: Calendar,
       title: "Annual Life Forecast",
-      description: "Year-ahead predictions covering all major life areas with monthly breakdowns",
+      description: "Year-ahead predictions covering all major life areas with monthly breakdowns and important dates",
       duration: "120 minutes"
     },
     {
       icon: Gift,
-      title: "Child Birth Timing",
-      description: "Auspicious timing for conception and insights into your future children's nature",
+      title: "Child Birth Timing & Pregnancy",
+      description: "Auspicious timing for conception, pregnancy guidance, and insights into future children's nature",
       duration: "60 minutes"
     },
     {
       icon: Eye,
-      title: "Past Life Reading",
-      description: "Understanding karmic patterns and how past lives influence your current journey",
+      title: "Past Life Karma Reading",
+      description: "Understanding karmic patterns, past life influences, and soul lessons affecting your current journey",
       duration: "90 minutes"
     },
     {
       icon: Compass,
-      title: "Life Purpose Discovery",
-      description: "Uncover your soul's mission and align with your true calling in this lifetime",
+      title: "Life Purpose & Soul Mission",
+      description: "Uncover your soul's purpose, spiritual calling, and align with your true dharma in this lifetime",
       duration: "75 minutes"
     },
     {
       icon: Zap,
-      title: "Urgent Life Decisions",
-      description: "Quick guidance for immediate important decisions and crisis situations",
+      title: "Emergency Life Decisions",
+      description: "Quick guidance for urgent decisions, crisis situations, and time-sensitive life choices",
       duration: "30 minutes"
     },
     {
       icon: BookOpen,
-      title: "Educational Path Guidance",
-      description: "Best educational choices, exam timing, and academic success strategies",
+      title: "Education & Career Path",
+      description: "Best educational choices, exam timing, academic success strategies, and career direction",
       duration: "45 minutes"
     },
     {
       icon: Users,
-      title: "Family Compatibility Analysis",
-      description: "Understanding family dynamics and resolving relationship conflicts",
+      title: "Family Harmony Analysis",
+      description: "Understanding family dynamics, resolving conflicts, and creating peaceful relationships",
       duration: "60 minutes"
     },
     {
-      icon: Lightbulb,
-      title: "Creative Potential Reading",
-      description: "Unlock your artistic talents and find the best expression for your creativity",
+      icon: DollarSign,
+      title: "Financial Prosperity Reading",
+      description: "Wealth creation timing, investment guidance, property purchase, and financial abundance predictions",
+      duration: "60 minutes"
+    },
+    {
+      icon: Home,
+      title: "Property & Real Estate",
+      description: "Auspicious timing for buying/selling property, location selection, and real estate investments",
       duration: "45 minutes"
     },
     {
+      icon: Briefcase,
+      title: "Business Partnership Analysis",
+      description: "Partner compatibility, business venture timing, and collaborative success strategies",
+      duration: "60 minutes"
+    },
+    {
+      icon: Baby,
+      title: "Child Development Guidance",
+      description: "Understanding your child's nature, educational path, and nurturing their talents effectively",
+      duration: "45 minutes"
+    },
+    {
+      icon: Globe,
+      title: "Foreign Travel & Settlement",
+      description: "International opportunities, visa timing, foreign settlement prospects, and global connections",
+      duration: "50 minutes"
+    },
+    {
+      icon: Mountain,
+      title: "Spiritual Growth Path",
+      description: "Meditation guidance, spiritual practices, enlightenment timing, and inner awakening journey",
+      duration: "60 minutes"
+    },
+    {
+      icon: Flower,
+      title: "Marriage Compatibility",
+      description: "Deep partner analysis, wedding timing, marital harmony, and long-term relationship success",
+      duration: "75 minutes"
+    },
+    {
+      icon: Sun,
+      title: "Solar Return Reading",
+      description: "Birthday year predictions, personal new year forecast, and annual growth opportunities",
+      duration: "45 minutes"
+    },
+    {
+      icon: Moon,
+      title: "Lunar Cycle Guidance",
+      description: "Working with moon phases, emotional cycles, and lunar-based manifestation techniques",
+      duration: "30 minutes"
+    },
+    {
       icon: Clock,
-      title: "Muhurat Consultation",
-      description: "Auspicious timing selection for important events, ceremonies, and new beginnings",
+      title: "Muhurat & Auspicious Timing",
+      description: "Perfect timing selection for important events, ceremonies, launches, and new beginnings",
       duration: "30 minutes"
     },
     {
       icon: Phone,
       title: "Follow-up Consultation",
-      description: "Continued guidance and updates on previous readings with new developments",
+      description: "Continued guidance, progress updates, and refinement of previous readings with new developments",
       duration: "30 minutes"
     },
     {
       icon: MessageCircle,
       title: "Quick Question Session",
-      description: "Fast answers to specific questions about immediate concerns or opportunities",
+      description: "Fast answers to specific questions about immediate concerns, opportunities, or decisions",
       duration: "15 minutes"
     }
   ];
