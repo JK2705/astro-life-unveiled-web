@@ -6,6 +6,8 @@ import AstrologerIntro from '../components/AstrologerIntro';
 import ALPExplanation from '../components/ALPExplanation';
 import ComparisonTable from '../components/ComparisonTable';
 import BenefitsSection from '../components/BenefitsSection';
+import ServicesSection from '../components/ServicesSection';
+import TestimonialsSection from '../components/TestimonialsSection';
 import CallToAction from '../components/CallToAction';
 import Footer from '../components/Footer';
 
@@ -18,6 +20,8 @@ const Index = () => {
       <ALPExplanation />
       <ComparisonTable />
       <BenefitsSection />
+      <ServicesSection />
+      <TestimonialsSection />
       <CallToAction />
       <Footer />
     </div>
