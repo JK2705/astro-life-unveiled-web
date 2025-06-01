@@ -31,7 +31,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <span className="text-2xl font-serif font-bold text-astrology-gold glow-text">
-              Astrologer [Name]
+              Astrologer Brindha
             </span>
           </div>
 
