@@ -18,7 +18,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-serif font-bold text-astrology-gold mb-4 glow-text">
-              Astrologer [Name]
+              Astrologer Brindha
             </h3>
             <p className="text-astrology-silver leading-relaxed">
               Transforming lives through precise, timeline-based astrological guidance. Experience the power of ALP Astrology.
@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="border-t border-astrology-cosmic mt-8 pt-8 text-center">
           <p className="text-astrology-silver">
-            © 2025 Astrologer [Name]. All rights reserved. | Transforming lives through ALP Astrology
+            © 2025 Astrologer Brindha. All rights reserved. | Transforming lives through ALP Astrology
           </p>
         </div>
       </div>
