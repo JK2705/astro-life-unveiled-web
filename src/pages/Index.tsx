@@ -4,7 +4,6 @@ import Navigation from '../components/Navigation';
 import HeroSection from '../components/HeroSection';
 import AstrologerIntro from '../components/AstrologerIntro';
 import ALPExplanation from '../components/ALPExplanation';
-import ComparisonTable from '../components/ComparisonTable';
 import BenefitsSection from '../components/BenefitsSection';
 import ServicesSection from '../components/ServicesSection';
 import TestimonialsSection from '../components/TestimonialsSection';
@@ -18,7 +17,6 @@ const Index = () => {
       <HeroSection />
       <AstrologerIntro />
       <ALPExplanation />
-      <ComparisonTable />
       <BenefitsSection />
       <ServicesSection />
       <TestimonialsSection />
