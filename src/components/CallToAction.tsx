@@ -16,15 +16,15 @@ const CallToAction = () => {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in stagger-4">
             <a 
-              href="tel:+919999999999"
+              href="tel:+919360878276"
               className="flex items-center gap-3 bg-astrology-gold text-astrology-deep px-8 py-4 rounded-full text-lg font-semibold hover-glow hover:scale-105 transition-all duration-300"
             >
               <Phone size={24} />
-              Call +91 99999 99999
+              Call +91 93608 78276
             </a>
             
             <a 
-              href="https://wa.me/919999999999"
+              href="https://wa.me/919360878276"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover-glow hover:scale-105 transition-all duration-300"

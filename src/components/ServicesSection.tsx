@@ -214,13 +214,13 @@ const ServicesSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="tel:+919999999999"
+                href="tel:+919360878276"
                 className="bg-astrology-gold text-astrology-deep px-8 py-3 rounded-full font-semibold hover-glow hover:scale-105 transition-all duration-300"
               >
-                Call Now: +91 99999 99999
+                Call Now: +91 93608 78276
               </a>
               <a 
-                href="https://wa.me/919999999999"
+                href="https://wa.me/919360878276"
                 className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
               >
                 <MessageCircle className="w-5 h-5" />

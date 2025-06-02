@@ -46,14 +46,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-astrology-gold mb-4">Contact Info</h4>
             <div className="space-y-3">
               <a 
-                href="tel:+919999999999"
+                href="tel:+919360878276"
                 className="flex items-center gap-3 text-astrology-silver hover:text-astrology-gold transition-colors duration-300"
               >
                 <Phone size={18} />
-                +91 99999 99999
+                +91 93608 78276
               </a>
               <a 
-                href="https://wa.me/919999999999"
+                href="https://wa.me/919360878276"
                 className="flex items-center gap-3 text-astrology-silver hover:text-astrology-gold transition-colors duration-300"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -62,11 +62,11 @@ const Footer = () => {
                 WhatsApp Chat
               </a>
               <a 
-                href="mailto:astrologer@example.com"
+                href="mailto:alpbrindha@gmail.com"
                 className="flex items-center gap-3 text-astrology-silver hover:text-astrology-gold transition-colors duration-300"
               >
                 <Mail size={18} />
-                astrologer@example.com
+                alpbrindha@gmail.com
               </a>
             </div>
           </div>
