@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Card, CardContent } from './ui/card';
-import { Star } from 'lucide-react';
+import { Star, MessageCircle } from 'lucide-react';
 
 const TestimonialsSection = () => {
   const testimonials = [
@@ -136,12 +135,21 @@ const TestimonialsSection = () => {
         </div>
 
         <div className="text-center mt-16">
-          <button 
-            onClick={scrollToContact}
-            className="bg-astrology-gold text-astrology-deep px-8 py-3 rounded-full font-semibold hover-glow hover:scale-105 transition-all duration-300"
-          >
-            Contact Us
-          </button>
+          <div className="bg-gradient-to-r from-astrology-deep/50 to-astrology-cosmic/50 rounded-lg p-8 max-w-2xl mx-auto border border-astrology-gold/20">
+            <h3 className="text-2xl font-serif font-bold text-astrology-gold mb-4">
+              Join Thousands of Satisfied Clients Across South India
+            </h3>
+            <p className="text-astrology-silver mb-6">
+              Experience the accuracy and life-changing insights of ALP astrology for yourself
+            </p>
+            <a 
+              href="https://wa.me/919360878276"
+              className="inline-flex items-center gap-2 bg-astrology-gold text-astrology-deep px-8 py-3 rounded-full font-semibold hover-glow hover:scale-105 transition-all duration-300"
+            >
+              <MessageCircle className="w-5 h-5" />
+              Start Your Journey Today
+            </a>
+          </div>
         </div>
       </div>
     </section>
