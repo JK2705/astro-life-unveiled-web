@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import { 
@@ -110,6 +109,13 @@ const ServicesSection = () => {
     }
   ];
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="services" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
@@ -202,31 +208,14 @@ const ServicesSection = () => {
               );
             })}
           </div>
-        </div>
 
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-astrology-cosmic/20 to-astrology-gold/20 rounded-lg p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-serif font-bold text-astrology-gold mb-4">
-              Ready to Transform Your Life?
-            </h3>
-            <p className="text-astrology-silver mb-6">
-              Book your personalized consultation today and discover the perfect harmony of cosmic guidance and spatial energy
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="tel:+919360878276"
-                className="bg-astrology-gold text-astrology-deep px-8 py-3 rounded-full font-semibold hover-glow hover:scale-105 transition-all duration-300"
-              >
-                Call Now: +91 93608 78276
-              </a>
-              <a 
-                href="https://wa.me/919360878276"
-                className="bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-700 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
-              >
-                <MessageCircle className="w-5 h-5" />
-                WhatsApp Chat
-              </a>
-            </div>
+          <div className="text-center mt-16">
+            <button 
+              onClick={scrollToContact}
+              className="bg-astrology-gold text-astrology-deep px-8 py-3 rounded-full font-semibold hover-glow hover:scale-105 transition-all duration-300"
+            >
+              Contact Us
+            </button>
           </div>
         </div>
       </div>
