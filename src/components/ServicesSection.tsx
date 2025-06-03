@@ -170,7 +170,7 @@ const ServicesSection = () => {
         </div>
 
         {/* Akshaya Vastu Services */}
-        <div className="mb-16">
+        <div className="mb-8">
           <div className="text-center mb-12">
             <h3 className="text-3xl font-serif font-bold text-astrology-gold mb-4">
               Akshaya Vastu Services
@@ -209,7 +209,7 @@ const ServicesSection = () => {
             })}
           </div>
 
-          <div className="text-center mt-16">
+          <div className="text-center mt-12">
             <button 
               onClick={scrollToContact}
               className="bg-astrology-gold text-astrology-deep px-8 py-3 rounded-full font-semibold hover-glow hover:scale-105 transition-all duration-300"
