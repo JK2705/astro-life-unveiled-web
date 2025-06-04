@@ -32,10 +32,10 @@ const AstrologerIntro = () => {
             </h2>
             <div className="text-lg text-astrology-silver leading-relaxed space-y-4 max-w-4xl mx-auto">
               <p>
-                Astrologer Brindha specializes in Astro Life Prediction (ALP) and has helped 2000+ clients gain clarity on life events, relationships, career transitions, and spiritual growth through precise, timeline-based astrological guidance.
+               ALP Astrologer Brindha specializes in Astro Life Prediction (ALP) and has helped 2000+ clients gain clarity on life events, relationships, career transitions, and spiritual growth through precise, timeline-based astrological guidance.
               </p>
               <p>
-                With over 15 years of experience in both traditional Vedic astrology and modern ALP techniques, Brindha bridges ancient wisdom with contemporary understanding to provide practical insights that actually make a difference in your daily life.
+                With over 2+ years of experience in both traditional Vedic astrology and modern ALP techniques, Brindha bridges ancient wisdom with contemporary understanding to provide practical insights that actually make a difference in your daily life.
               </p>
               <p className="text-astrology-gold font-semibold text-center">
                 "I believe astrology should be a practical tool for empowerment, not just mystical entertainment. ALP makes that possible."
