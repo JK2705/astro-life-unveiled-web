@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from './ui/card';
 import { Star, MessageCircle } from 'lucide-react';
@@ -143,7 +144,7 @@ const TestimonialsSection = () => {
               Experience the accuracy and life-changing insights of ALP astrology for yourself
             </p>
             <a 
-              href="https://wa.me/919360878276"
+              href="https://wa.me/919445842714"
               className="inline-flex items-center gap-2 bg-astrology-gold text-astrology-deep px-8 py-3 rounded-full font-semibold hover-glow hover:scale-105 transition-all duration-300"
             >
               <MessageCircle className="w-5 h-5" />

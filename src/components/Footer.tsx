@@ -13,7 +13,7 @@ const Footer = () => {
 
   const handleWhatsAppClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    const phoneNumber = "919360878276";
+    const phoneNumber = "919445842714";
     const message = "Hi! I'm interested in your astrology consultation services.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
@@ -56,11 +56,11 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-astrology-gold mb-4">Contact Info</h4>
             <div className="space-y-3">
               <a 
-                href="tel:+919360878276"
+                href="tel:+919445842714"
                 className="flex items-center gap-3 text-astrology-silver hover:text-astrology-gold transition-colors duration-300"
               >
                 <Phone size={18} />
-                +91 93608 78276
+                +91 94458 42714
               </a>
               <button
                 onClick={handleWhatsAppClick}
