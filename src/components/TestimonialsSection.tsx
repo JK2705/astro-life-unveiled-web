@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from './ui/card';
 import { Star, MessageCircle } from 'lucide-react';
@@ -6,71 +5,71 @@ import { Star, MessageCircle } from 'lucide-react';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      name: "Arjun Krishnamurthy",
+      name: "Rajesh Kumar",
       location: "Chennai, Tamil Nadu",
       text: "The ALP reading was incredibly accurate! The astrologer predicted my job change with exact timing - it happened exactly when they said it would. Amazing precision!",
       rating: 5,
       service: "Career Guidance"
     },
     {
-      name: "Priya Nair",
-      location: "Kochi, Kerala",
+      name: "Priya Venkatesh",
+      location: "Hyderabad, Telangana",
       text: "I was skeptical at first, but the marriage timing prediction was spot on. Found my life partner exactly in the timeframe mentioned. Truly grateful for this guidance!",
       rating: 5,
       service: "Love & Relationship"
     },
     {
-      name: "Ravi Reddy",
-      location: "Hyderabad, Telangana",
+      name: "Srinivas Reddy",
+      location: "Vijayawada, Andhra Pradesh",
       text: "The health predictions helped me take preventive measures that literally saved my life. The timing and nature of health issues were precisely predicted.",
       rating: 5,
       service: "Health & Wellness"
     },
     {
-      name: "Srinivas Rao",
-      location: "Bangalore, Karnataka",
+      name: "Lakshmi Narayanan",
+      location: "Coimbatore, Tamil Nadu",
       text: "Business expansion guidance was phenomenal. Launched my new venture in the suggested timeframe and it's been incredibly successful. Thank you so much!",
       rating: 5,
       service: "Business Consultation"
     },
     {
-      name: "Lakshmi Iyer",
-      location: "Coimbatore, Tamil Nadu",
+      name: "Madhavi Rao",
+      location: "Tirupati, Andhra Pradesh",
       text: "The annual forecast was like reading my diary in advance. Every major event happened as predicted. ALP astrology is truly revolutionary!",
       rating: 5,
       service: "Annual Forecast"
     },
     {
-      name: "Mohan Pillai",
-      location: "Trivandrum, Kerala",
+      name: "Ravi Chandran",
+      location: "Madurai, Tamil Nadu",
       text: "Property purchase timing was perfect. Bought at the right time and right price as suggested. The financial gains have been substantial!",
       rating: 5,
       service: "Financial Guidance"
     },
     {
-      name: "Kavitha Reddy",
-      location: "Visakhapatnam, Andhra Pradesh",
+      name: "Kavitha Sharma",
+      location: "Warangal, Telangana",
       text: "Child birth timing consultation was a blessing. My baby was born healthy and at the perfect time as predicted. Couldn't be happier with the outcome!",
       rating: 5,
       service: "Child Birth Timing"
     },
     {
-      name: "Suresh Kumar",
-      location: "Mysore, Karnataka",
+      name: "Venkatesh Iyer",
+      location: "Salem, Tamil Nadu",
       text: "Educational path guidance for my son was invaluable. He got into his dream university exactly as the astrologer had foreseen. Remarkable accuracy!",
       rating: 5,
       service: "Educational Guidance"
     },
     {
-      name: "Deepika Menon",
-      location: "Calicut, Kerala",
+      name: "Deepika Reddy",
+      location: "Guntur, Andhra Pradesh",
       text: "The relationship compatibility analysis saved my marriage. Understanding our dynamics helped us resolve conflicts and grow stronger together.",
       rating: 5,
       service: "Relationship Analysis"
     },
     {
-      name: "Venkatesh Naidu",
-      location: "Tirupati, Andhra Pradesh",
+      name: "Suresh Babu",
+      location: "Trichy, Tamil Nadu",
       text: "Career transition guidance was spot on. Changed my field at the right time and it's been the best decision of my life. Highly recommended!",
       rating: 5,
       service: "Career Transition"
